@@ -1,0 +1,43 @@
+Dataset directory verified at: C:\Users\Daksh's pc\Desktop\deep_learning\assignment_6\tomato\train
+Device: cpu
+
+==================================================
+Training Model: 1-Layer CNN (Conv only)
+==================================================
+Epoch 1/5 | Loss: 1.9948 | Train Acc: 59.87% | Val Acc: 77.20%
+Epoch 2/5 | Loss: 0.4494 | Train Acc: 83.26% | Val Acc: 83.00%
+Epoch 3/5 | Loss: 0.2721 | Train Acc: 90.67% | Val Acc: 82.37%
+Epoch 4/5 | Loss: 0.2098 | Train Acc: 93.54% | Val Acc: 86.15%
+Epoch 5/5 | Loss: 0.1400 | Train Acc: 96.22% | Val Acc: 86.40%
+
+==================================================
+Training Model: CNN with Max Pooling
+==================================================
+Epoch 1/5 | Loss: 0.9813 | Train Acc: 62.17% | Val Acc: 77.71%
+Epoch 2/5 | Loss: 0.5329 | Train Acc: 79.29% | Val Acc: 80.86%
+Epoch 3/5 | Loss: 0.4051 | Train Acc: 85.03% | Val Acc: 81.74%
+Epoch 4/5 | Loss: 0.3163 | Train Acc: 89.60% | Val Acc: 83.88%
+Epoch 5/5 | Loss: 0.2483 | Train Acc: 92.18% | Val Acc: 86.90%
+
+==================================================
+Training Model: CNN with Max Pooling & Dense Hidden Layer
+==================================================
+Epoch 1/5 | Loss: 0.8626 | Train Acc: 62.96% | Val Acc: 77.33%
+Epoch 2/5 | Loss: 0.4718 | Train Acc: 82.00% | Val Acc: 81.99%
+Epoch 3/5 | Loss: 0.3228 | Train Acc: 88.87% | Val Acc: 82.49%
+Epoch 4/5 | Loss: 0.2508 | Train Acc: 91.65% | Val Acc: 88.16%
+Epoch 5/5 | Loss: 0.1644 | Train Acc: 94.99% | Val Acc: 88.41%
+
+Saved all model weights.
+
+==================================================
+Final Comparison Table
+==================================================
+Model Architecture                       | Final Train Loss   | Final Val Acc (%) 
+----------------------------------------------------------------------------------
+1-Layer CNN (Conv only)                  | 0.1400             | 86.40%
+CNN with Max Pooling                     | 0.2483             | 86.90%
+CNN with Max Pooling & Dense Hidden      | 0.1644             | 88.41%
+----------------------------------------------------------------------------------
+
+Saved comparison plot to: C:\Users\Daksh's pc\Desktop\deep_learning\assignment_6\tomato\model_comparison.png
